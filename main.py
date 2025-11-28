@@ -49,9 +49,9 @@ class IA:
         self.frites = 0
         self.bieres = 0
 
-    def bfs_avec_frites(self, lab, depart, objectif, nb_frites_dispo):
+    def parcourt_largeur_avec_frites(self, lab, depart, objectif, nb_frites_dispo):
         """
-        BFS modifié qui trouve le chemin le plus court en tenant compte des frites.
+        Parcourt largeur modifié qui trouve le chemin le plus court en tenant compte des frites.
         État = (position, nb_frites_utilisées)
         Retourne : (chemin, nb_frites_utilisées, bonus_ramasses)
         """
@@ -151,9 +151,9 @@ class IA:
 
         return meilleur_chemin, meilleur_frites, meilleur_bonus
 
-    def bfs_avec_biere(self, lab, depart, objectif, nb_bieres_dispo):
+    def parcourt_largeur_avec_biere(self, lab, depart, objectif, nb_bieres_dispo):
         """
-        BFS qui intègre l'utilisation de bières (3 pas d'un coup).
+        Parcourt en largeur qui intègre l'utilisation de bières (3 pas d'un coup).
         Retourne : (chemin, nb_bieres_utilisées, bonus_ramasses)
         """
         q = deque([(depart, [], 0, {"Bs": 0, "Bp": 0})])
@@ -257,12 +257,12 @@ class IA:
         valeur_moule = int(cell)
 
         # Chercher le meilleur chemin avec frites
-        chemin_frites, nb_frites_needed, bonus_frites = self.bfs_avec_frites(
+        chemin_frites, nb_frites_needed, bonus_frites = self.parcourt_largeur_avec_frites(
             lab, ma_pos, objectif_pos, self.frites
         )
 
         # Chercher le meilleur chemin avec bières
-        chemin_bieres, nb_bieres_needed, bonus_bieres = self.bfs_avec_biere(
+        chemin_bieres, nb_bieres_needed, bonus_bieres = self.parcourt_largeur_avec_biere(
             lab, ma_pos, objectif_pos, self.bieres
         )
 
