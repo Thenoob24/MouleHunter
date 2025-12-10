@@ -3,12 +3,14 @@ description: Bot automatique pour dominer la course aux moules avec frites et bi
 
 remote_theme: just-the-docs/just-the-docs
 
-# Couleurs moules & frites power
 color_scheme: dark
 just_the_docs:
   palette:
-    primary: "#6b2d5c"   # violet moule
-    accent: "#ff6b35ff"  # orange frite
+    primary: "#6b2d5c"
+    accent: "#ff6b35ff"
+  collections:
+    docs:
+      name: Documentation
 
 search_enabled: true
 heading_anchors: true
@@ -18,7 +20,6 @@ mermaid:
 aux_links:
   "GitHub →": "https://github.com/thenoob24/MouleHunter/"
 
-# Menu automatique (le plus simple)
 collections:
   docs:
     permalink: "/:path/"
