@@ -1,4 +1,29 @@
-title: Mon Projet Étudiant
-description: Description de mon projet
-theme: minima
-# ou un autre thème Jekyll
+title: MouleHunterAI
+description: Bot automatique ultra-rapide pour dominer la course aux moules
+
+# Thème Just the Docs
+remote_theme: just-the-docs/just-the-docs
+
+# Couleurs personnalisées (style moules/frite/bière)
+color_scheme: dark # ou "light", mais on va faire un custom
+aux_links:
+  "Télécharger le bot sur GitHub":
+    - "https://github.com/TON_PSEUDO/TON_REPO"
+
+# Activer la barre de recherche
+search_enabled: true
+heading_anchors: true
+
+# Logo (optionnel, mets une moule ou une frite en PNG dans /assets)
+logo:logo: /assets/logo.png
+
+# Menu de navigation
+nav:
+  - title: Accueil
+    url: /
+  - title: Comment démarrer
+    url: /#comment-démarrer
+  - title: Stratégie du bot
+    url: /#comment-ça-marche
+  - title: Bonus (Frites & Bières)
+    url: /#les-bonus-magiques

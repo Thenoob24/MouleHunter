@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Accueil
+permalink: /
 ---
 
-# 🐚 Bienvenue sur GodMoules2025
+# 🐚 Bienvenue sur MouleHunterAI
 
 Votre assistant intelligent pour gagner la course aux moules !
 
@@ -11,7 +12,7 @@ Votre assistant intelligent pour gagner la course aux moules !
 
 ## 🎮 C'est quoi ?
 
-GodMoules2025 est un joueur automatique (un "bot") qui joue à un jeu de labyrinthe où le but est de collecter le plus de moules possible. Il prend les décisions à votre place et joue de manière intelligente pour gagner !
+MouleHunterAI est un joueur automatique (un "bot") qui joue à un jeu de labyrinthe où le but est de collecter le plus de moules possible. Il prend les décisions à votre place et joue de manière intelligente pour gagner !
 
 ### Pourquoi c'est génial ?
 
