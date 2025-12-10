@@ -16,7 +16,7 @@ def load_env_file(filename='.env'):
         print("Crée un fichier .env avec :")
         print("SERVEUR_IP=127.0.0.1")
         print("SERVEUR_PORT=1337")
-        print("NOM_EQUIPE=GodMoules2025")
+        print("NOM_EQUIPE=equipeA")
         exit(1)
     return env
 
