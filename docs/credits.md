@@ -1,5 +1,5 @@
 ---
-title: Crédits & Apprentissages
+title: Crédits
 nav_order: 8
 ---
 
@@ -7,13 +7,6 @@ nav_order: 8
 
 Projet étudiant réalisé pour découvrir l’IA appliquée aux jeux.
 
-**Technologies** : Python • Socket • Algorithmes de chemin (A*/BFS) • Évaluation heuristique
-
-**Vous apprenez** :
-- Prise de décision autonome
-- Pathfinding dans un labyrinthe
-- Gestion de ressources (bonus)
-- Comparaison de stratégies en temps réel
-- Création d’un vrai bot compétitif
+**Technologies** : Python • Socket • Algorithmes de chemin parcourt en largeur 
 
 Amuse-toi bien !

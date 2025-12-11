@@ -1,19 +1,25 @@
 ---
-title: Comment ça marche
+title: CLes règles du jeu
 nav_order: 3
 ---
 
 # Comment ça marche
 
 ### Le but du jeu
-Labyrinthe + moules + autres joueurs = course aux points !
+Un labyrinthe avec des moules et différent bonus sont générés aléatoirement 
+et le but du jeu est de collecter toutes les moules pour obtenir le plus de point.
 
-### Les éléments du terrain
-| Symbole | Signification                  | Points |
-|--------|--------------------------------|--------|
-| `1`–`9`| Moules                         | 1 à 9  |
-| `#`    | Mur                            | —      |
-| ` `    | Case vide                      | —      |
+
+## 🗺️ Les éléments du terrain
+
+| Symbole   | Signification  | Points |
+|-----------|----------------|--------|
+| `1`–`9`   | 🐚 Moules      | 1 à 9  |
+| `#`       | 🧱 Mur         | —      |
+| *(espace)* | ▫️ Case vide   | —      |
+| `🍟`      | 🍟 Bonus frites | —      |
+| `🍺`      | 🍺 Bonus bières | —      |
+
 
 ### Déplacements possibles
 - **N**ord, **S**ud, **E**st, **O**uest  

@@ -1,5 +1,5 @@
 ---
-title: Comment démarrer
+title: Démarrage rapide
 nav_order: 2
 ---
 
