@@ -1,5 +1,5 @@
 ---
-title: CLes règles du jeu
+title: Les règles du jeu
 nav_order: 3
 ---
 
@@ -11,13 +11,14 @@ et le but du jeu est de collecter toutes les moules pour obtenir le plus de poin
 
 
 ## 🗺️ Les éléments du terrain
-| Symbole    | Signification   | Points |
-|------------|-----------------|--------|
-| `1`–`9`    | 🐚 Moules        | 1 à 9  |
-| `#`        | 🧱 Mur           | —      |
-| *(espace)* | ▫️ Case vide     | —      |
-| `🍟`       | 🍟 Bonus frites  | —      |
-| `🍺`       | 🍺 Bonus bières  | —      |
+
+| Symbole     | Signification         | Points      |
+|-------------|-----------------------|-------------|
+| `1` – `9`   | 🐚 Moules             | 1 à 9       |
+| `#`         | 🧱 Mur                | —           |
+| (espace)    | ▫️ Case vide          | —           |
+| `🍟`        | 🍟 Bonus frites       | —           |
+| `🍺`        | 🍺 Bonus bières       | —           |
 
 
 
